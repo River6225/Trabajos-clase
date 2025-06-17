@@ -22,7 +22,6 @@ Daniel Edgardo Pavón Castro - 20241001960
 Kristhian Josué Rivera Castro - 20231001015
 */
 
-
 bool esPar (int &evaluar){
     bool par = false;
 
@@ -34,7 +33,7 @@ bool esPar (int &evaluar){
 
 void Menu (){
     
-    cout << "     Biendvenido al programa de evaluacion de numeros pares e impares \n ";
+    cout << "     Bienvenido al programa de evaluacion de numeros pares e impares \n ";
 }
 
 int main(){
