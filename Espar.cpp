@@ -42,6 +42,7 @@ int main(){
            cout << "El numero: " << numero << " es impar ";
        }
       cout << "Desea evaluar otro numero? (1. Si || 2. No)";
+      cin >> respuesta;
     } while (respuesta == 1);
     
 
