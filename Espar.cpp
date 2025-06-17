@@ -13,6 +13,16 @@ argumento y muestra un mensaje en la
 consola indicando si el número es par o
 impar. */
 
+// Grupo # 3
+/* Integrantes:
+Luis Enrique Herrera Figueroa - 20231031357
+Soad Nallybeth Velásquez López - 20241001880
+Maria Isabel Oviedo Zelaya - 20241000887
+Daniel Edgardo Pavón Castro - 20241001960
+Kristhian Josué Rivera Castro - 20231001015
+*/
+
+
 bool esPar (int &evaluar){
     bool par = false;
 
@@ -22,9 +32,14 @@ bool esPar (int &evaluar){
     return par;
 }
 
+void Menu (){
+    
+    cout << "     Biendvenido al programa de evaluacion de numeros pares e impares \n ";
+}
 
 int main(){
-   
+
+    Menu();
     int respuesta;
    do
    {
@@ -37,15 +52,16 @@ int main(){
        
        if (esPar (numero)) // Si retorna true entra a la condicion si no entra a la parte falsa 
        {
-           cout << "El numero: " << numero << " es par "; 
+           cout << "El numero: " << numero << " es par \n "; 
        }else{
-           cout << "El numero: " << numero << " es impar ";
+           cout << "El numero: " << numero << " es impar \n ";
        }
-      cout << "Desea evaluar otro numero? (1. Si || 2. No)";
+      cout << "Desea evaluar otro numero? (1. Si || 2. No):  ";
       cin >> respuesta;
     } while (respuesta == 1);
     
-
+    cout << " Saliendo del programa... \n";
+    cout << " Hasta luego ";
 
 
     return 0;
